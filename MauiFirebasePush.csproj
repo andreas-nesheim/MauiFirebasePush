@@ -12,7 +12,7 @@
 		<ApplicationTitle>MauiFirebasePush</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.mauifirebasepush</ApplicationId>
+		<ApplicationId>no.anesheim.mauifirebasepush</ApplicationId>
 		<ApplicationIdGuid>83D0DECA-D71F-4D80-869E-CDD06AEDD6A4</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -39,6 +39,14 @@
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-android'">
+		<GoogleServicesJson Include="google-services.json" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-ios'">
+		<BundleResource Include="GoogleService-Info.plist" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>420132075099-c8277aroat61r1glps9hp2a03cel0m80.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.420132075099-c8277aroat61r1glps9hp2a03cel0m80</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAS2WkwiXQZh5t16w-rkCr_7AZP-QMieII</string>
+	<key>GCM_SENDER_ID</key>
+	<string>420132075099</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>no.anesheim.mauifirebasepush</string>
+	<key>PROJECT_ID</key>
+	<string>mauifirebasepush</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mauifirebasepush.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:420132075099:ios:54c80a0c5dece08205f17e</string>
+</dict>
+</plist>

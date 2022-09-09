@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "420132075099",
+    "project_id": "mauifirebasepush",
+    "storage_bucket": "mauifirebasepush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420132075099:android:d573dace4d418e6d05f17e",
+        "android_client_info": {
+          "package_name": "no.anesheim.mauifirebasepush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420132075099-59911ahs86sm78bgsfff7vp3vmkvook8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfB2LhA9_Z3zJQrdn5ALWugXqsdgsN0ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420132075099-59911ahs86sm78bgsfff7vp3vmkvook8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "420132075099-c8277aroat61r1glps9hp2a03cel0m80.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "no.anesheim.mauifirebasepush"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
