@@ -23,6 +23,8 @@ public partial class MainPage : ContentPage
 		SemanticScreenReader.Announce(CounterBtn.Text);
 
 		await CrossFirebaseCloudMessaging.Current.CheckIfValidAsync();
+		var token = await CrossFirebaseCloudMessaging.Current.GetTokenAsync();
+		var stuff = 1;
 	}
 }
 
